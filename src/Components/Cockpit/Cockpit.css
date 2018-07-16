@@ -1,0 +1,30 @@
+.red {
+    color: red;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .Button{
+    border: 4px solid black;
+    box-shadow: 3px 3px 4px;
+    padding: 16px;
+    background-color: #FFC300;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .Button:focus{
+      outline: none;
+  }
+  .Button:hover{
+    background-color: #FFA233;
+    color: black;
+  }
+  .Button.Red{
+    background-color: #C70039;
+    color: white;
+  }
+  .Button.Red:hover{
+    background-color: #900C3F;
+    color: white;
+  }
